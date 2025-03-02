@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book appointments</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Book Appointment</h2>
+        <form>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+      
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number" required>
+      
+          <label for="date">Appointment Date</label>
+          <input type="date" id="date" required>
+      
+          <label for="department">Department</label>
+          <select id="department" required>
+            <option value="">Select Department</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+            <option value="orthopedics">Orthopedics</option>
+            <option value="pediatrics">Pediatrics</option>
+          </select>
+      
+          <label for="message">Additional Message</label>
+          <textarea id="message" rows="4" placeholder="Enter your message"></textarea>
+      
+          <button type="submit">Book Appointment</button>
+        </form>
+      </div>
+</body>
+</html>
